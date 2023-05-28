@@ -1,5 +1,6 @@
 dataset*.pickle
 testframes
+final_model.pt
 *keyframes
 *downloads
 *__pycache__
