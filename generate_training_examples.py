@@ -65,7 +65,7 @@ class GenerateTrainingExamples():
         self.device = "cpu"
 
     # model for video embeddings
-    self.resnet= models.resnet18(weights='ResNet18_Weights.DEFAULT')
+    self.resnet= models.resnet50(weights='ResNet50_Weights.DEFAULT')
     self.resnet = self.resnet.to(self.device)
 
     self.transform = transforms.Compose([

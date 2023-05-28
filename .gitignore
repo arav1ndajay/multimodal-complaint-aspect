@@ -1,5 +1,5 @@
 dataset*.pickle
 testframes
-keyframes
-downloads
+*keyframes
+*downloads
 *__pycache__
